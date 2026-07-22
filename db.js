@@ -46,7 +46,7 @@ function clearCart() {
 // ==========================================
 
 const SHEET_URL =
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vRu7b5PXTT7XKOyfWf8zyQIE-uP0W6ZmuQh7e6BdsqQ-igpoLC_IMd-RWk6KBHFR0jJgic--5av7zGc/pub?output=csv";
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vRu7b5PXTT7XKOyfWf8zyQIE-uP0W6ZmuQh7e6BdsqQ-igpoLC_IMd-RWk6KBHFR0jJgic--5av7zGc/pub?gid=0&single=true&output=csv";
 
 const CACHE_DURATION = 1 * 60 * 1000; // 缓存时间 (1分钟)
 window.perfumeDB = [];
