@@ -932,13 +932,16 @@
           <a class="menu-link" onclick="handleMenuClick('All')">Shop All</a>
 
           <!-- ================= 核心修改：耳机自定义类目 (可在此自由增加/更改) ================= -->
-          <a class="menu-link" onclick="handleMenuClick('Wireless')">🎧 Wireless Headphones</a>
-          <a class="menu-link" onclick="handleMenuClick('Earbuds')">🎵 In-Ear / Earbuds</a>
-          <a class="menu-link" onclick="handleMenuClick('NoiseCanceling')">🔇 Noise Canceling</a>
-          <a class="menu-link" onclick="handleMenuClick('Gaming')">🎮 Gaming Headsets</a>
+         <!-- 侧边栏菜单修改 -->
+<a class="menu-link" onclick="handleMenuClick('All')">🔥 All Products (全部商品)</a>
+<a class="menu-link" onclick="handleMenuClick('Apple')">📱 Apple Devices (苹果系列)</a>
+<a class="menu-link" onclick="handleMenuClick('JBL')">🎵 JBL Audio (JBL 音响/耳机)</a>
+<a class="menu-link" onclick="handleMenuClick('Dyson')">💨 Dyson Home & Beauty (戴森家电/美发)</a>
+<a class="menu-link" onclick="handleMenuClick('Lego')">🧩 Lego Sets (乐高积木)</a>
+<a class="menu-link" onclick="handleMenuClick('Stamps')">📮 Rare Stamps (珍藏邮票)</a>
 
           <!-- ================= 核心修改：香水跳转网站入口 ================= -->
-          <a class="menu-link perfume-jump-link" href="https://your-perfume-website.com" target="_blank">
+          <a class="menu-link perfume-jump-link" href="https://bestproducts1.github.io/catalog/" target="_blank">
             <span>🌸 Perfume Store</span>
             <span style="font-size: 0.8rem; font-weight: bold;">GO ↗</span>
           </a>
@@ -1320,15 +1323,12 @@
 
       // ================= 核心修改：耳机品牌配置列表 (可随意自行添加/改名) =================
       const FEATURED_BRANDS = [
-        "Sony",
-        "Bose",
-        "Apple",
-        "Sennheiser",
-        "JBL",
-        "Audio-Technica",
-        "Marshall",
-        "Beats"
-      ];
+  "Apple",
+  "Dyson",
+  "JBL",
+  "Lego",
+  "Stamps" // 邮票/集邮
+];
       const FEATURED_BRANDS_LOWER = FEATURED_BRANDS.map((b) => b.toLowerCase());
       const discountTiers = [
         { min: 1, max: 1, percent: 0 },
